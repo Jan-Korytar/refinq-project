@@ -72,3 +72,23 @@ something. You may also include an outlook and propose innovative ideas for enha
 vegetation change detection, such as incorporating machine learning models to predict
 future trends or suggesting the integration of additional datasets
 (e.g., soil moisture or temperature data)._
+
+## Overview
+My answer to this project is documented in the Jupyter notebook: `src/main.ipynb`. There, everything is explained and analyzed. I loaded the files, visualized them, and computed basic metrics to be able to interpret my findings. After looking at the data, I concluded that the data in its current format does seem to be altered. Based on those findings, I reasoned my answer to the question.
+
+### What were my challenges:
+Overall, I enjoyed the project. Still, there were challenges:
+1. It was my first time working with GeoTIFF files, so there was some trial and error.
+2. I also had to install rasterio more than once.
+3. Coming up with a reasonable statistical test for the change.
+4. I started with interactive Streamlit visualization (see: `src/streamlitdemo.py`); however, I decided not to finish it as it would take too much time and seemed not sufficiently helpful for the project aim.
+
+### Challenges of the project
+See the end of the Jupyter notebook.
+
+### Outlook
+For analyzing vegetation change alone, I believe standard statistical techniques are sufficient. However, if we would like to model what happens if we change starting variables, we could choose any of the plethora of ML models available or create a new one (which is definitely more fun!).
+
+
+
+
