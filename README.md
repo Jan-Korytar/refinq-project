@@ -74,12 +74,17 @@ future trends or suggesting the integration of additional datasets
 (e.g., soil moisture or temperature data)._
 
 ## Overview
-My answer to this project is documented in the Jupyter notebook: `src/main.ipynb`. There, everything is explained and analyzed. I loaded the files, visualized them, and computed basic metrics to be able to interpret my findings. After looking at the data, I concluded that the data in its current format does seem to be altered. Based on those findings, I reasoned my answer to the question.
+My answer to this project is documented in the Jupyter notebook: `src/main.ipynb`. There, everything is explained and analyzed. I loaded the files, visualized them and their change, and computed basic metrics to be able to interpret my findings. After looking at the data, I concluded that the data in its current format does seem to be altered. Based on those findings, I reasoned my answer to the question.
+
+### "Is the vegetation in Naturpark Karwendel changing (declining or growing) over time?"
+_Note that this answer is based on the belief that the data has been altered, see last part of`src/main.ipynb`._
+
+Yes, most probably it is changing, there are most definitely seasonal changes and also yearly change, we can say that on the almost same date the NDVI index was larger in 2023 than in 2019. Just by visual inspection the area near Scharnitz doesn't show significantly larger changes (positive or negative). And from the three datapoints, if we include our assumptions about the data, we are unable to see any possible negative effect.
 
 ### What were my challenges:
 Overall, I enjoyed the project. Still, there were challenges:
 1. It was my first time working with GeoTIFF files, so there was some trial and error.
-2. I also had to install rasterio more than once.
+2. I also had to install rasterio more than once, due to errors.
 3. Coming up with a reasonable statistical test for the change.
 4. I started with interactive Streamlit visualization (see: `src/streamlitdemo.py`); however, I decided not to finish it as it would take too much time and seemed not sufficiently helpful for the project aim.
 
@@ -87,7 +92,7 @@ Overall, I enjoyed the project. Still, there were challenges:
 See the end of the Jupyter notebook.
 
 ### Outlook
-For analyzing vegetation change alone, I believe standard statistical techniques are sufficient. However, if we would like to model what happens if we change starting variables, we could choose any of the plethora of ML models available or create a new one (which is definitely more fun!).
+I think I could have also included difference between area close to our client site and the whole area. For analyzing vegetation change alone, I believe standard statistical techniques are sufficient. However, if we would like to model what happens if we change variables, see into the future or perhaps to predict other features (Soil quality, soil moisture, sunlight per year etc.), we could choose any of the plethora of ML models available or create a new one (which is definitely more fun!). But that is out of the scope of this project.
 
 
 
