@@ -74,12 +74,12 @@ future trends or suggesting the integration of additional datasets
 (e.g., soil moisture or temperature data)._
 
 ## Overview
-My answer to this project is documented in the Jupyter notebook: `src/main.ipynb`. There, everything is explained and analyzed. I loaded the files, visualized them and their change, and computed basic metrics to be able to interpret my findings. After looking at the data, I concluded that the data in its current format does seem to be altered. Based on those findings, I reasoned my answer to the question.
+My answer to this project is documented in the Jupyter notebook: `src/main.ipynb`. There, everything is explained and analyzed. I loaded the files, visualized them and their change, and computed basic metrics to be able to interpret my findings. After looking at the data, I concluded that the data in its current format does seem to be altered. Based on those findings, I reasoned my answer to the question. Python environment is specified in `environment.yml` file.
 
 ### "Is the vegetation in Naturpark Karwendel changing (declining or growing) over time?"
 _Note that this answer is based on the belief that the data has been altered, see last part of`src/main.ipynb`._
 
-Yes, most probably it is changing, there are most definitely seasonal changes and also yearly change, we can say that on the almost same date the NDVI index was larger in 2023 than in 2019. Just by visual inspection the area near Scharnitz doesn't show significantly larger changes (positive or negative). And from the three datapoints, if we include our assumptions about the data, we are unable to see any possible negative effect.
+Yes, it is probably changing, there is most definitely seasonal change: winter file shows less vegetation; and for the yearly change, we can say that on the almost same date the NDVI index was larger in 2023 than in 2019. Just by visual inspection the area near Scharnitz doesn't show significantly larger changes (positive or negative) compared to the rest of the data. Due to the size of the dataset we are unable to deduce long term trends in the change of vegetation.
 
 ### What were my challenges:
 Overall, I enjoyed the project. Still, there were challenges:
