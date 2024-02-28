@@ -74,7 +74,7 @@ future trends or suggesting the integration of additional datasets
 (e.g., soil moisture or temperature data)._
 
 ## Overview
-My answer to this project is documented in the Jupyter notebook: `src/main.ipynb`. There, everything is explained and analyzed. I loaded the files, visualized them and their change, and computed basic metrics to be able to interpret my findings. After looking at the data, I concluded that the data in its current format does seem to be altered. Based on those findings, I reasoned my answer to the question. Python environment is specified in `environment.yml` file.
+My answer to this project is documented in the Jupyter notebook: `src/main.ipynb`. Python environment is specified in `environment.yml` file. There, everything is explained and analyzed. I loaded the files, visualized them and their change, and computed basic metrics to be able to interpret my findings. After looking at the data, I concluded that the data in its current format does seem to be altered. Based on those findings, I reasoned my answer to the question. 
 
 ### "Is the vegetation in Naturpark Karwendel changing (declining or growing) over time?"
 _Note that this answer is based on the belief that the data has been altered, see last part of`src/main.ipynb`._
